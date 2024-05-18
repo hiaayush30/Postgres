@@ -1,7 +1,8 @@
 import { Client } from "pg";
+const {CONNECTION_STRING}=require("../config");
 
 const client = new Client({
-    connectionString: "postgresql://test_owner:RhqxCS46cvJZ@ep-crimson-sun-a5aq2l66.us-east-2.aws.neon.tech/test?sslmode=require"
+    connectionString: CONNECTION_STRING
 })
 
 
