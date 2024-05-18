@@ -1,0 +1,9 @@
+\x
+This command switches to expanded display mode, which formats query output in a more readable format.
+
+\dt view all tables
+
+\d+ table-name view info about a table
+
+SELECT * FROM table-name;
+view all rows and columns of a table
